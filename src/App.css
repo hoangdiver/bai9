@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.header button {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+.assistant-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+.card img {
+    width: 100px;
+    height: 100px;
+}
+.dashboard {
+    display: flex;
+}
+.sidebar {
+    width: 200px;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar ul li {
+    padding: 10px 0;
+    cursor: pointer;
+}
+.main-content {
+    flex-grow: 1;
+    padding: 10px;
+}
+.charts {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.chart-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+}
+.summary table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.summary td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+.summary button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
